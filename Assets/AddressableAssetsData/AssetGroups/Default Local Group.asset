@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e9c7e84e3de1b85459c7c9d8f4613ab7
+  m_SerializeEntries:
+  - m_GUID: 236eade5829c8974db0fbe7c86298b20
+    m_Address: 1_FixPlay
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6674a24e7f93e034ea3bc85f50bef0ea
+    m_Address: 2_Letvin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 970eaa4026684614a957dd17cfd96ae4
+    m_Address: 3_A4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b94f7b1fa8288c41aecf3968ba85f08
+    m_Address: 4_Mamix
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ead9ce98300d4254397efca84ee44757
+    m_Address: 5_Masha
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4ae02682a55a19b44b06d347b86fe299, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a615d3d00573e2142bcd112455e97d17, type: 2}
+    - {fileID: 11400000, guid: 39bfcc9ac0b9ac64c94186088566825d, type: 2}
