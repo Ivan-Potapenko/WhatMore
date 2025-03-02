@@ -8,7 +8,7 @@ using UnityEngine.EventSystems;
 
 namespace Game {
 
-    public class ChooseButton : MonoBehaviour, IPointerClickHandler {
+    public class ComparisonItem : MonoBehaviour, IPointerClickHandler {
 
         [SerializeField]
         private TextMeshProUGUI _nameLabel;
@@ -16,6 +16,10 @@ namespace Game {
         private TextMeshProUGUI _valueLabel;
         [SerializeField]
         private AsyncImage _image;
+
+        [SerializeField]
+        private RectTransform _rectTransform;
+        public RectTransform RectTransform => _rectTransform;
 
         public event Action onClick;
 
@@ -27,7 +31,6 @@ namespace Game {
             _valueLabel.text = data.Value.ToString();
             _valueLabel.gameObject.SetActive(false);
             _image.Load(data.ImageAssetReference);
-            _image.Image.color = Color.white;
         }
 
         public void OnPointerClick(PointerEventData eventData) {
@@ -42,10 +45,8 @@ namespace Game {
         public void ShowResult(bool rightAnswer) {
             ProcessValueShow(1);
             if (rightAnswer) {
-                _image.Image.color = Color.green;
                 return;
             }
-            _image.Image.color = Color.red;
         }
     }
 }
