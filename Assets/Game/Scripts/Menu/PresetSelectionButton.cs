@@ -11,7 +11,7 @@ namespace UI {
     public class PresetSelectionButton : MonoBehaviour {
 
         [SerializeField]
-        private SelectableItemsConfig _itemsConfig;
+        private AbstractSelectableItemsConfig _itemsConfig;
 
         [SerializeField]
         private SelectableItemsConfig.Type _type;
@@ -31,11 +31,8 @@ namespace UI {
         [SerializeField]
         private TextMeshProUGUI _moneyLabel;
 
-        private void Awake() {
+        private void Start() {
             _button.onClick.AddListener(OnButtonClicked);
-        }
-
-        private void OnEnable() {
             _byGroup.gameObject.SetActive(!Account.Instance.OpenedTypes[_type] && !_alwaysOpened);
             _moneyLabel.text = _price.ToString();
         }

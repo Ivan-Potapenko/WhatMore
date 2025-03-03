@@ -44,7 +44,7 @@ namespace Game {
         [SerializeField]
         private TextMeshProUGUI _moneyCountLabel;
 
-        public SelectableItemsConfig currentSelectableItemsConfig;
+        public AbstractSelectableItemsConfig currentSelectableItemsConfig;
 
         protected override void Init() {
             base.Init();

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7a35fc9fd391e4bb8982605f568f5d, type: 3}
+  m_Name: ComedySelectableItemsConfig
+  m_EditorClassIdentifier: 
+  _choseButtonsData:
+  - _name: "\u041F\u043E\u0434\u0431\u043E\u0440\u043A\u0430 \u043B\u0443\u0447\u0448\u0438\u0445
+      \u0441\u0442\u0430\u0440\u044B\u0445 \u043C\u0435\u043C\u043E\u0432 \u0438
+      \u0432\u0438\u0434\u0435\u043E \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0432\u0437\u043E\u0440\u0432\u0430\u043B\u0438
+      \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442!!!(2018)"
+    _value: 3430541
+    _imageAssetReference:
+      m_AssetGUID: 89887cb29c625db4f97c0d7ff1575e7e
+      m_SubObjectName: 1_Mem
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 1

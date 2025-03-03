@@ -13,7 +13,7 @@ namespace Game {
         private List<ComparisonItem> _comparisonItems;
 
         [SerializeField]
-        private SelectableItemsConfig _selectableItemsConfig;
+        private AbstractSelectableItemsConfig _selectableItemsConfig;
 
         [SerializeField]
         private TextMeshProUGUI _scoreLabel;

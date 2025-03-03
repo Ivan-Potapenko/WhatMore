@@ -1,0 +1,33 @@
+{
+    "stringKeys": [],
+    "stringValues": [],
+    "floatKeys": [],
+    "floatValues": [],
+    "intKeys": [
+        "_bestScore",
+        "_money",
+        "_openedTypesMusic",
+        "_openedTypesGames",
+        "_openedTypesTrips",
+        "_openedTypesEducation",
+        "_openedTypesEntertainment"
+    ],
+    "intValues": [
+        24,
+        59,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "intExample": 5,
+    "strExample": "Hello!",
+    "boolExample": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "idSave": 91
+}

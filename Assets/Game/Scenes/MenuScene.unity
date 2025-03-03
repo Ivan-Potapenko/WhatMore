@@ -367,6 +367,10 @@ PrefabInstance:
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6923462383007784625, guid: ec42963d6d34f054a81ce3bf8c3f8cb9, type: 3}
+      propertyPath: _itemsConfig
+      value: 
+      objectReference: {fileID: 11400000, guid: fc6905a954b20ad489c9b1df750ff952, type: 2}
+    - target: {fileID: 6923462383007784625, guid: ec42963d6d34f054a81ce3bf8c3f8cb9, type: 3}
       propertyPath: _alwaysOpened
       value: 0
       objectReference: {fileID: 0}
@@ -1107,6 +1111,10 @@ PrefabInstance:
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6923462383007784625, guid: ec42963d6d34f054a81ce3bf8c3f8cb9, type: 3}
+      propertyPath: _itemsConfig
+      value: 
+      objectReference: {fileID: 11400000, guid: 82306faba1d8174479fec41dcbb86cf4, type: 2}
+    - target: {fileID: 6923462383007784625, guid: ec42963d6d34f054a81ce3bf8c3f8cb9, type: 3}
       propertyPath: _alwaysOpened
       value: 0
       objectReference: {fileID: 0}
@@ -1342,6 +1350,10 @@ PrefabInstance:
       propertyPath: _price
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6923462383007784625, guid: ec42963d6d34f054a81ce3bf8c3f8cb9, type: 3}
+      propertyPath: _itemsConfig
+      value: 
+      objectReference: {fileID: 11400000, guid: 230454e208cd2604b864190fd4c539a4, type: 2}
     - target: {fileID: 6923462383007784625, guid: ec42963d6d34f054a81ce3bf8c3f8cb9, type: 3}
       propertyPath: _alwaysOpened
       value: 0
@@ -2655,6 +2667,10 @@ PrefabInstance:
       propertyPath: _price
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6923462383007784625, guid: ec42963d6d34f054a81ce3bf8c3f8cb9, type: 3}
+      propertyPath: _itemsConfig
+      value: 
+      objectReference: {fileID: 11400000, guid: ae7c9e88749f3904c8b6eae3c5a5155b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

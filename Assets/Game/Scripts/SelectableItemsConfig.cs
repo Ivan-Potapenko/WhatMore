@@ -3,7 +3,7 @@ using UnityEngine;
 namespace Data {
 
     [CreateAssetMenu(fileName = nameof(SelectableItemsConfig), menuName = "Data/SelectableItemsConfig")]
-    public class SelectableItemsConfig : ScriptableObject {
+    public class SelectableItemsConfig : AbstractSelectableItemsConfig {
 
         public enum Type {
             Music,
@@ -15,7 +15,7 @@ namespace Data {
 
         [SerializeField]
         private ChoseButtonData[] _choseButtonsData;
-        public ChoseButtonData[] ChoseButtonsData => _choseButtonsData;
+        public override ChoseButtonData[] ChoseButtonsData => _choseButtonsData;
     }
 }
 
